@@ -57,3 +57,5 @@ alice.enroll(chemistry)
 
 console.log(alice.listCourses())
 console.log(math.listStudents())
+
+export {}
