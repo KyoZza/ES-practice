@@ -22,11 +22,8 @@ function getProduct(id: number) {
     setTimeout(() => {
       const product = products.find((product) => product.id === id)
 
-      if (product) {
-        resolve(product)
-      } else {
-        reject(new Error(`Product with ID ${id} not found`))
-      }
+      if (product) return resolve(product)
+      reject(new Error(`Product with ID ${id} not found`))
     }, 2000)
   })
 }
