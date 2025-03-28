@@ -38,6 +38,7 @@ ES15 and beyond ~
 - Async/Await → A cleaner way to work with Promises.
 - Object.entries() → Converts an object into an array of [key, value] pairs.
 - Object.values() → Returns an array of object values.
+- Object.getOwnPropertyDescriptors()
 - String padding (padStart() & padEnd()) → Pads strings to a certain length.
 - Trailing commas in function parameter lists → Allows trailing commas in
   function arguments.
