@@ -58,6 +58,7 @@ ES15 and beyond ~
 - Array.prototype.flat() & flatMap()
 - Object.fromEntries()
 - String.prototype.trimStart() & trimEnd()
+- String.prototype.matchAll().
 - Optional Catch Binding
 - Symbol.prototype.description
 - Function.prototype.toString() Revision
