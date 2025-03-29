@@ -52,3 +52,14 @@ ES15 and beyond ~
 - Promise.prototype.finally(): Running cleanup logic regardless of promise
   resolution/rejection.
 - RegExp Enhancements
+
+## ES10
+
+- Array.prototype.flat() & flatMap()
+- Object.fromEntries()
+- String.prototype.trimStart() & trimEnd()
+- Optional Catch Binding
+- Symbol.prototype.description
+- Function.prototype.toString() Revision
+- Well-formed JSON.stringify()
+- BigInt (Introduced but officially in ES11)
